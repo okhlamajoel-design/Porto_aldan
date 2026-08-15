@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aldan Tri Winata | Visual Portfolio</title>
+  <link rel="stylesheet" href="Script.css">
+  <link rel="icon" type="image/svg+xml" href="assets/logo/logo.svg">
+  <meta name="description" content="Portofolio visual Aldan Tri Winata - fotografi, videografi, desain poster.">
+
+  <!-- Open Graph Tags untuk Social Media -->
+  <meta property="og:title" content="Aldan Tri Winata - Visual Portfolio">
+  <meta property="og:description" content="Portofolio visual Aldan Tri Winata - fotografi, videografi, desain poster.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aldantriwinata.com">
+  <meta property="og:image" content="assets/foto/gua.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aldan Tri Winata - Visual Portfolio">
+  <meta name="twitter:description" content="Portofolio visual Aldan Tri Winata - fotografi, videografi, desain poster.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#main" class="logo-link" aria-label="Back to top">
+      <img src="assets/logo/logo.svg" alt="Logo" class="logo">
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#work">Works</a>
+      <a href="#contact" class="contact-btn">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section (Bisa diganti Video Showreel/GIF Karyamu) -->
+  <main id="main">
+  <!-- Hero Section Baru ala Editorial -->
+  <header class="hero-new">
+
+    <!-- Teks Besar di Belakang (Layer 1) -->
+    <div class="hero-bg-text">
+      <h1 class="text-porto">portofolio</h1>
+      <h1 class="text-year">2027</h1>
+    </div>
+
+    <!-- Foto Kamu di Tengah (Layer 2) -->
+    <div class="hero-photo">
+      <img src="assets/foto/gua.png" alt="Aldan Tri Winata">
+    </div>
+
+    <!-- Teks di Sudut Bawah (Layer 3) -->
+    <div class="hero-footer">
+      <div class="left-text">
+        Fotografi & Videografi -<br>
+        Video Editor
+      </div>
+      <div class="right-text">
+        Aldan<br>
+        Tri Winata
+      </div>
+    </div>
+
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me.</h2>
+        <p class="lead-text">Halo, saya <strong>Aldan Tri Winata</strong>. Seorang siswa SMK yang percaya bahwa desain bukan cuma soal keindahan, tapi juga solusi komunikasi.</p>
+
+        <p>Saat ini saya sedang menempuh pendidikan di jurusan <strong>Desain Komunikasi Visual (DKV)</strong>. Saya memiliki minat yang besar dalam fotografi & videografi, membuat poster, hingga video editor.</p>
+
+        <p>Dalam proses kreatif, saya terbiasa menggunakan pendekatan modern. Mulai dari <em>software</em> standar industri seperti <strong>Adobe Photoshop & Illustrator, CapCut,</strong> dan <strong>Canva</strong>, hingga memanfaatkan teknologi <strong>Generative AI</strong> untuk mempercepat riset ide visual.</p>
+
+        <p>Di luar jam mendesain, saya biasanya menghabiskan waktu bermain game strategi & simulasi, belajar hal lain seperti coding dan AI, atau mencari referensi <em>art</em> baru. Saat ini, saya siap membawa ide segar dan kemauan belajar saya ke dunia industri melalui program PKL.</p>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat-box">
+          <h3>Tools & Tech</h3>
+          <ul>
+            <li>Adobe Photoshop & Illustrator</li>
+            <li>Canva</li>
+            <li>Generative AI (Gemini, dll)</li>
+            <li>Snapseed</li>
+            <li>CapCut</li>
+            <li>DaVinci Resolve</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section (Masonry Grid) with categories -->
+  <section id="work" class="gallery-section">
+
+    <!-- Category: Photography -->
+    <h2 class="category-heading" id="photography">Photography</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item tall" data-src="assets/foto/poto1.jpg" data-caption="Portrait Series">
+        <img src="assets/foto/poto1.jpg" alt="Portrait Series" loading="lazy">
+        <div class="overlay"><h3>Portrait Series</h3><p>Sunset / Portrait</p></div>
+      </div>
+      <div class="gallery-item tall" data-src="assets/foto/poto2.jpg" data-caption="Photo Human">
+        <img src="assets/foto/poto2.jpg" alt="Photo Human" loading="lazy">
+        <div class="overlay"><h3>Photo Human</h3><p>Aesthetic / Nature</p></div>
+      </div>
+      <div class="gallery-item tall" data-src="assets/foto/poto3.jpg" data-caption="Nature Photography">
+        <img src="assets/foto/poto3.jpg" alt="Nature Photography" loading="lazy">
+        <div class="overlay"><h3>Nature Photography</h3><p>Natural Trees / Gleam of Light</p></div>
+      </div>
+      <div class="gallery-item tall" data-src="assets/foto/poto4.jpg" data-caption="Human Insert">
+        <img src="assets/foto/poto4.jpg" alt="Human Insert" loading="lazy">
+        <div class="overlay"><h3>Human Insert</h3><p>Random People / Work</p></div>
+      </div>
+      <div class="gallery-item wide" data-src="assets/foto/poto5.jpeg" data-caption="Golden Hour Interior">
+        <img src="assets/foto/poto5.jpeg" alt="Golden Hour Interior" loading="lazy">
+        <div class="overlay"><h3>Golden Hour Interior</h3><p>Landscape / Afternoon</p></div>
+      </div>
+      <div class="gallery-item wide" data-src="assets/foto/poto6.jpeg" data-caption="Corridor Landscape">
+        <img src="assets/foto/poto6.jpeg" alt="Corridor Landscape" loading="lazy">
+        <div class="overlay"><h3>Corridor Landscape</h3><p>Dusk Photo / Urban</p></div>
+      </div>
+    </div>
+
+    <!-- Category: Videography -->
+    <h2 class="category-heading" id="videography">Videography</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item wide" data-type="video" data-src="assets/video/video1.mp4" data-caption="One Day to PKL">
+        <img src="assets/video/video1-poster.jpg" alt="One Day to PKL" loading="lazy">
+        <div class="play-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"></polygon></svg>
+        </div>
+        <div class="overlay"><h3>One Day to PKL</h3><p>Cinematic Vlog</p></div>
+      </div>
+      <div class="gallery-item wide" data-type="video" data-src="assets/video/video2.mp4" data-caption="Trip to Tamkot Srengseng">
+        <img src="assets/video/video2-poster.jpg" alt="Trip to Tamkot Srengseng" loading="lazy">
+        <div class="play-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"></polygon></svg>
+        </div>
+        <div class="overlay"><h3>Trip to Tamkot Srengseng</h3><p>Nature / Travel</p></div>
+      </div>
+      <div class="gallery-item wide" data-type="video" data-src="assets/video/video3.mp4" data-caption="Daily Life Diary">
+        <img src="assets/video/video3-poster.jpg" alt="Daily Life Diary" loading="lazy">
+        <div class="play-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"></polygon></svg>
+        </div>
+        <div class="overlay"><h3>Daily Life Diary</h3><p>Vlog / Storytelling</p></div>
+      </div>
+    </div>
+
+    <!-- Category: Posters / Graphic Design -->
+    <h2 class="category-heading" id="posters">Posters & Graphics</h2>
+    <div class="gallery-grid poster-grid">
+      <div class="gallery-item tall" data-src="assets/poster/poster1.jpg" data-caption="Snack Poster">
+        <img src="assets/poster/poster1.jpg" alt="Snack Poster" loading="lazy">
+        <div class="overlay"><h3>Snack Poster</h3><p>Potato Chips</p></div>
+      </div>
+      <div class="gallery-item tall" data-src="assets/poster/poster2.jpg" data-caption="Fashion Poster">
+        <img src="assets/poster/poster2.jpg" alt="Fashion Poster" loading="lazy">
+        <div class="overlay"><h3>Fashion Poster</h3><p>Poster Editorial</p></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <div class="contact-text">
+        <h2>Mari Terhubung!</h2>
+        <div class="contact-list">
+          <a class="contact-item" href="mailto:Okhlamajoel@gmail.com">
+            <span class="contact-label">EMAIL</span>
+            <span class="contact-value">Okhlamajoel@gmail.com</span>
+          </a>
+          <a class="contact-item" href="https://instagram.com/aldynxn" target="_blank" rel="noopener">
+            <span class="contact-label">INSTAGRAM</span>
+            <span class="contact-value">instagram.com/aldynxn</span>
+          </a>
+          <a class="contact-item" href="https://tiktok.com/@elitisfomo_" target="_blank" rel="noopener">
+            <span class="contact-label">TIKTOK</span>
+            <span class="contact-value">tiktok.com/@elitisfomo_</span>
+          </a>
+          <a class="contact-item" href="https://wa.me/62895329236535" target="_blank" rel="noopener">
+            <span class="contact-label">WHATSAPP</span>
+            <span class="contact-value">+62 895329236535</span>
+          </a>
+        </div>
+      </div>
+      <div class="contact-photo">
+        <img src="Assets/foto/gua2.png" alt="Aldan Tri Winata">
+      </div>
+    </div>
+  </section>
+
+  <!-- Thank You Section -->
+  <section class="thankyou-section">
+    <div class="thankyou-container">
+      <h2>Terimakasih!</h2>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Lightbox (Pop-up Fullscreen saat gambar/video diklik) -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close-btn">&times;</span>
+    <img id="lightbox-img" src="" alt="Zoomed Work">
+    <video id="lightbox-video" controls playsinline></video>
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+  </div>
+
+  <script src="Style.js"></script>
+</body>
+</html>
